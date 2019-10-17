@@ -1,14 +1,14 @@
 <template>
-  <pdf></pdf>
+  <main-frame></main-frame>
 </template>
 
 <script>
-  import pdf from "@/pdf/pdf";
+  import mainFrame from "@/components/frame.vue";
 
 
 export default {
   components: {
-    pdf
+    mainFrame
   }
 }
 </script>
