@@ -3,17 +3,17 @@
     <div class="toolbar"></div>
     <div class="sidebar"></div>
     <div class="viewer">
-      <pdf></pdf>
+      <viewer></viewer>
     </div>
   </main>
 </template>
 
 <script>
-  import pdf from "@/pdf/pdf"
+  import Viewer from "@/components/pdf-viewer/Viewer"
   export default {
     name: "frame",
     components: {
-      pdf
+      Viewer
     }
   }
 </script>
