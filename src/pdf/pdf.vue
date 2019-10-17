@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="viewerComponent">
     <div id="outerContainer">
 
       <div id="sidebarContainer">
@@ -413,16 +413,16 @@
 </template>
 
 <script>
-
-
   export default {
-
     mounted() {
-      require('./viewer')
+      require('./viewer.js')
     }
   }
 </script>
 
 <style scoped>
   @import "./viewer.module.css";
+  #viewerComponent {
+    height: 100%;
+  }
 </style>
