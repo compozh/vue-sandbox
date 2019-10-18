@@ -1,14 +1,13 @@
 <template>
-  <main-frame></main-frame>
+  <Layout></Layout>
 </template>
 
 <script>
-  import mainFrame from "@/components/frame.vue";
-
+  import Layout from "@/components/Layout.vue";
 
 export default {
   components: {
-    mainFrame
+    Layout
   }
 }
 </script>
