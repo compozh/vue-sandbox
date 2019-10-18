@@ -412,10 +412,10 @@
 </template>
 
 <script>
+  require('./scripts/viewer.js')
   export default {
     mounted() {
-      require('./pdf/viewer.js')
-      //require('../../../public/pdf/pdf.js')
+
     }
   }
 </script>
