@@ -1,0 +1,20 @@
+query($formCode: String!, $formItemAutocompleteParamsInput: FormItemAutocompleteParamsInput!) {
+    formioQuery {
+        callItemAutocomplete(formCode: $formCode, formItemAutocompleteParamsInput: $formItemAutocompleteParamsInput) {
+            values {
+                code
+                name
+                barcode
+            }
+            mostSuitableValue {
+                code
+                name
+                barcode
+            }
+            success
+            errorMessage
+            successMessage
+            errorCode
+        }
+    }
+}

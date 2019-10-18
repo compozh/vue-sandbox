@@ -1,0 +1,14 @@
+mutation($formCode: String!, $formCustomEventParamsInput: FormCustomEventParamsInput!) {
+    formioQueryMutation {
+        callFormCustomEvent(formCode: $formCode, formCustomEventParamsInput: $formCustomEventParamsInput) {
+            components
+            submission
+            display
+            settings
+            success
+            errorMessage
+            successMessage
+            errorCode
+        }
+    }
+}

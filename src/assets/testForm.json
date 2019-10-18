@@ -1,0 +1,336 @@
+{
+  "FormKey": "FORUM2020START",
+  "Form": {
+    "name": "Прием нового сотрудника. Ввод данных о пользователе",
+    "display": "form",
+    "components": [
+      {
+        "allowInput": false,
+        "widget": {
+          "type": "input"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": "",
+        "mask": false,
+        "protected": false,
+        "key": "LASTNAME",
+        "label": "Фамилия",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "textfield"
+      },
+      {
+        "allowInput": false,
+        "widget": {
+          "type": "input"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": "",
+        "mask": false,
+        "protected": false,
+        "key": "FIRSTNAME",
+        "label": "Имя",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "textfield"
+      },
+      {
+        "allowInput": false,
+        "widget": {
+          "type": "input"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": "",
+        "mask": false,
+        "protected": false,
+        "key": "PATRONYMIC",
+        "label": "Отчество",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "textfield"
+      },
+      {
+        "enableTime": false,
+        "timePicker": {
+          "showMeridian": false,
+          "HourStep": 1,
+          "minuteStep": 1,
+          "readonlyInput": false,
+          "mousewheel": true,
+          "arrowkeys": true
+        },
+        "dataFormat": "yyyy-MM-dd hh:mm a",
+        "enableDate": true,
+        "datePicker": {
+          "minDate": null,
+          "maxDate": null,
+          "initDate": null,
+          "showWeeks": true,
+          "minMode": "day",
+          "maxMode": "year",
+          "yearRows": 4,
+          "yearColumns": 5
+        },
+        "allowInput": true,
+        "widget": {
+          "type": "calendar"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": null,
+        "mask": false,
+        "protected": false,
+        "key": "BIRTHDAY",
+        "label": "Дата рождения",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "datetime"
+      },
+      {
+        "allowInput": false,
+        "widget": {
+          "type": "input"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "tel",
+        "inputMask": "(999) 999-9999",
+        "mask": false,
+        "protected": false,
+        "key": "PHONENUMBER",
+        "label": "Телефон",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "phoneNumber"
+      },
+      {
+        "allowInput": false,
+        "widget": {
+          "type": "input"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "email",
+        "inputMask": "",
+        "mask": false,
+        "protected": false,
+        "key": "EMAIL",
+        "label": "e-mail",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "email"
+      },
+      {
+        "widget": "choicesjs",
+        "data": {
+          "values": [
+            {
+              "label": "Команда инфраструктурных решений",
+              "value": " 32019"
+            },
+            {
+              "label": "Quality Assurance ",
+              "value": " 32036"
+            },
+            {
+              "label": "ProZorro Government ",
+              "value": " 32146"
+            },
+            {
+              "label": "HR Solutions - Development ",
+              "value": " 32052"
+            },
+            {
+              "label": "Команда разработки \"PDM, IIOT, Proj\"  ",
+              "value": " 32034"
+            },
+            {
+              "label": "MASTER",
+              "value": " 32104"
+            },
+            {
+              "label": "Команда хозяйственного обеспечения",
+              "value": "32185"
+            },
+            {
+              "label": "Billing Sector",
+              "value": "32174"
+            },
+            {
+              "label": "MASTER: Partners",
+              "value": "32108"
+            },
+            {
+              "label": "Команда машиностроительных решений   ",
+              "value": "32070"
+            },
+            {
+              "label": "Команда машиностроительных решений (Дрогобыч)",
+              "value": "32073"
+            },
+            {
+              "label": "Команда ЕАМ-решений ",
+              "value": "  32067"
+            },
+            {
+              "label": "ECM Solutions",
+              "value": "32043"
+            },
+            {
+              "label": "Команда логистических решений",
+              "value": "32076"
+            },
+            {
+              "label": "Команда финансовых и экономических задач    ",
+              "value": "32061"
+            },
+            {
+              "label": "Supply Chain Management - Development ",
+              "value": "32080"
+            },
+            {
+              "label": "Команда бухгалтерских задач",
+              "value": "32058"
+            },
+            {
+              "label": "Команда задач управления производством ",
+              "value": "32031"
+            },
+            {
+              "label": "MASTER: Sales   ",
+              "value": "32128"
+            },
+            {
+              "label": "Команда развития информационных сервисов  ",
+              "value": "32022"
+            },
+            {
+              "label": "Digital Marketing ",
+              "value": "  32136"
+            },
+            {
+              "label": "Направление функционального развития",
+              "value": "32025"
+            },
+            {
+              "label": "ST Development",
+              "value": "32164"
+            }
+          ]
+        },
+        "allowInput": false,
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": null,
+        "mask": false,
+        "protected": false,
+        "key": "TEAM",
+        "label": "Команда",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "select"
+      },
+      {
+        "enableTime": false,
+        "timePicker": {
+          "showMeridian": true,
+          "HourStep": 1,
+          "minuteStep": 1,
+          "readonlyInput": false,
+          "mousewheel": true,
+          "arrowkeys": true
+        },
+        "dataFormat": "yyyy-MM-dd hh:mm a",
+        "enableDate": true,
+        "datePicker": {
+          "minDate": null,
+          "maxDate": null,
+          "initDate": null,
+          "showWeeks": true,
+          "minMode": "day",
+          "maxMode": "year",
+          "yearRows": 4,
+          "yearColumns": 5
+        },
+        "allowInput": true,
+        "widget": {
+          "type": "calendar"
+        },
+        "input": true,
+        "defaultValue": "",
+        "placeholder": "",
+        "inputFormat": "plain",
+        "inputType": "text",
+        "inputMask": null,
+        "mask": false,
+        "protected": false,
+        "key": "WORKDATE",
+        "label": "Дата выхода",
+        "labelPosition": "top",
+        "tooltip": "",
+        "disabled": false,
+        "hidden": false,
+        "hideLabel": false,
+        "autofocus": false,
+        "type": "datetime"
+      }
+    ],
+    "settings": "{}",
+    "SubmitAction": null,
+    "CustomEventAction": null
+  },
+  "Success": true,
+  "ErrorMessage": null,
+  "ErrorCode": null,
+  "StatusCode": 200
+}

@@ -1,0 +1,15 @@
+query($formCode:String!) {
+    formioQuery {
+        getForm(formCode: $formCode) {
+            name
+            components
+            submission
+            display
+            settings
+            success
+            errorMessage
+            successMessage
+            errorCode
+        }
+    }
+}
