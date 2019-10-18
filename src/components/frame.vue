@@ -1,7 +1,7 @@
 <template>
   <main>
-    <div class="toolbar"></div>
-    <div class="sidebar"></div>
+    <div class="toolbar">TOOLBAR</div>
+    <div class="sidebar">SIDEBAR</div>
     <div class="viewer">
       <viewer></viewer>
     </div>
@@ -26,14 +26,22 @@
     height: 100%;
   }
 
-    .toolbar {
-      background: #9d9d9d;
-      height: 60px;
-      flex: 0 0 100%;
+    .toolbar, .sidebar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 30px;
     }
 
     .sidebar, .viewer {
       height: calc(100% - 60px);
+    }
+
+    .toolbar {
+      background: #9d9d9d;
+      height: 60px;
+      flex: 0 0 100%;
     }
 
     .sidebar {

@@ -414,16 +414,14 @@
 <script>
   export default {
     mounted() {
-      require('pdfjs-dist')
-      require('pdfjs-dist/web/pdf_viewer.css')
-      // require('./viewer.js')
+      require('./pdf/viewer.js')
+      //require('../../../public/pdf/pdf.js')
     }
   }
 </script>
 
 <style scoped>
-  @import "../../assets/css/viewer.css";
-  @import "~pdfjs-dist/web/pdf_viewer.css";
+  @import "./css/viewer.css";
 
   #viewerComponent {
     height: 100%;
